@@ -1,0 +1,11 @@
+{
+    "simulationData": [
+      {
+        "montoInicial": 50000,
+        "cantidadAnios": 30,
+        "montoAnualAgregado": 1000,
+        "tasaInteres": 7
+      }
+    ]
+  }
+  

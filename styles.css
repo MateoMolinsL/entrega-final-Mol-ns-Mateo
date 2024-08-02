@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #03045E;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #aeecff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #480CA8;
+}
+
+input[type="number"],
+button {
+    width: calc(100% - 22px); /* Ajuste para que los elementos no se salgan del contenedor */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+
+button {
+    background-color: #B5179E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4361EE;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+#resumen,
+#gastoPromedio {
+    font-size: 20px;
+    color: #560BAD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #4361EE;
+    padding: 10px;
+    text-align: center;
+}
